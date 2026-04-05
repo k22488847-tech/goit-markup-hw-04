@@ -60,18 +60,24 @@ text-align: center;
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc 
+  border-bottom: 1px solid #e7e9fc; 
+}
+.container {
+  padding: 0 15px;
 }
 .header-container {
   display: flex;
 }
 
-
+.header-contacts-list {
+  display: flex;
+  gap: 40px;
+}
 .header-navigation {
   display: flex;
   flex-grow: 1;
-  justify-content: space-between;
-  margin-right: 332px;
+ 
+  align-items: center;
 }
 .header-logo-link { 
 
@@ -84,6 +90,7 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
 }
 
 .header-logo-black {
@@ -109,7 +116,8 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #2e2f42;
-
+padding: 24px 0;
+display: block;
 }
 .header-menu-link:hover { 
  color: #404bbf;
@@ -142,6 +150,7 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
+
 }
 
 .header-contacts-link:hover {
@@ -192,6 +201,11 @@ background-color:#404bbf;
 .hero-service-btn:focus {
 background-color:#404bbf; 
 }
+
+
+
+
+
 .features {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -216,7 +230,7 @@ background-color:#404bbf;
 }
 
 .features-item {
-  width: calc(( 100% - 3 * 24px ) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
@@ -267,7 +281,6 @@ margin-bottom: 72px;
 .team-card {
   padding: 32px 0;
 }
-
 .team-item {
 background-color: #FFFFFF;
 width:calc(( 100% - 3 * 24px ) / 4); 

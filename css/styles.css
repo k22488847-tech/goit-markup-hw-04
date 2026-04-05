@@ -228,10 +228,11 @@ background-color:#404bbf;
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
-  width: calc((100% - 72px) / 4)
+ 
 }
 
 .features-item {
+  width: calc((100% - 72px) / 4);
  
 }
 

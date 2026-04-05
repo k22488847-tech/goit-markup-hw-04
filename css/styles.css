@@ -60,7 +60,7 @@ text-align: center;
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-
+  border-bottom: 1px solid #e7e9fc 
 }
 .header-container {
   display: flex;
@@ -260,13 +260,14 @@ text-transform: capitalize;
 .team-list {
   display: flex;
   gap: 24px;
-  width:calc(( 100% - 3 * 24px ) / 4) 
+  
 
 }
 
 .team-item {
 background-color: #FFFFFF;
-
+width:calc(( 100% - 3 * 24px ) / 4) 
+border-radius: 0 0 4px 4px;
 }
 
 .team-image {

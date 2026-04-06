@@ -226,8 +226,6 @@ background-color:#404bbf;
 .features-list {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
  
 }
 
@@ -387,7 +385,7 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-bottom: 16px;s
+margin-bottom: 16px;
 }
 
 .footer-logo-white {

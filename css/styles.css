@@ -98,7 +98,7 @@ background-color:#404bbf;
 .team-social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 24px
 }
 
 .team-social-item {

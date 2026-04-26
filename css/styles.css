@@ -135,7 +135,7 @@ padding: 24px 0;
 display: block;
 
 }
-.header-menu-link current {
+.header-menu-link.current {
   position: relative;
   color: #404bbf;
 }
